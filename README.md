@@ -27,7 +27,8 @@ Meme/
 
 ## 🛠️ Instalación
 
-    Clona este repositorio:
+Clona este repositorio:
+
 ```plaintext
 
 git clone https://github.com/israelubeda/meme-generator.git
@@ -36,26 +37,34 @@ cd meme-generator
 
 Crea un entorno virtual y actívalo:
 
+```plaintext
 python3 -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 
+```
 Instala las dependencias:
 
+```plaintext
     pip install flask pillow
+```
 
-    Asegúrate de que la fuente Roboto-Regular.ttf esté en la carpeta static/fonts/.
+Asegúrate de que la fuente Roboto-Regular.ttf esté en la carpeta static/fonts/.
 
 Ejecución
 
-    Ejecuta la aplicación Flask:
+Ejecuta la aplicación Flask:
 
+```plaintext
 python app.py
+```
 
 Abre tu navegador y visita:
 
+```plaintext
     http://127.0.0.1:5000
+```
 
-    Sube una imagen, agrega texto y genera tu meme. El archivo generado se descargará automáticamente.
+Sube una imagen, agrega texto y genera tu meme. El archivo generado se descargará automáticamente.
 
 ---
 
@@ -63,8 +72,8 @@ Abre tu navegador y visita:
 
 Puedes personalizar el proyecto:
 
-    Cambia la fuente en static/fonts/ y actualiza la ruta en app.py.
-    Modifica el diseño de la página principal en templates/index.html.
+Cambia la fuente en static/fonts/ y actualiza la ruta en app.py.
+modifica el diseño de la página principal en templates/index.html.
 
 ---
 
