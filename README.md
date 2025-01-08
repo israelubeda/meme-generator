@@ -13,19 +13,26 @@ Meme/
 │   └── index.html              # Página principal con el formulario de generación
 ├── app.py                      # Aplicación Flask principal
 ```
+---
 
 ## Requisitos
 
+```plaintext
     Python 3.10 o superior
     Flask
     Pillow
+```
 
-## Instalación
+---
+
+## 🛠️ Instalación
 
     Clona este repositorio:
+```plaintext
 
 git clone https://github.com/israelubeda/meme-generator.git
 cd meme-generator
+```
 
 Crea un entorno virtual y actívalo:
 
@@ -50,24 +57,39 @@ Abre tu navegador y visita:
 
     Sube una imagen, agrega texto y genera tu meme. El archivo generado se descargará automáticamente.
 
-## Personalización
+---
+
+## 🎨 Personalización
 
 Puedes personalizar el proyecto:
 
     Cambia la fuente en static/fonts/ y actualiza la ruta en app.py.
     Modifica el diseño de la página principal en templates/index.html.
 
+---
+
 ## Capturas de Pantalla
 Formulario
 
 Meme Generado
 
-Licencia
+---
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+## 📝 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo libremente, siempre dando el crédito correspondiente. 🧑‍💻
+
+---
+
+## ✨ Autor
+
+Desarrollado por Israel Ubeda
+📧 Contacto: israel.ubedabravo@gmail.com
 
 
 ---
+---
+
 
 ### **Instrucciones Adicionales**
 1. **Agrega capturas de pantalla**:
@@ -75,6 +97,7 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más 
 
 2. **Sube a GitHub**:
    - Si deseas que otros puedan colaborar o usar este proyecto, considera subirlo a GitHub:
+
      ```bash
      git init
      git add .
