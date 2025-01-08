@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Memes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Memes</h1>
+    <form method="POST" action="/generate" enctype="multipart/form-data">
+        <label for="image">Sube tu imagen:</label>
+        <input type="file" name="image" id="image" required>
+        
+        <label for="top_text">Texto superior:</label>
+        <input type="text" name="top_text" id="top_text" placeholder="Texto superior" required>
+        
+        <label for="bottom_text">Texto inferior:</label>
+        <input type="text" name="bottom_text" id="bottom_text" placeholder="Texto inferior">
+        
+        <button type="submit">Generar Meme</button>
+    </form>
+</body>
+</html>
